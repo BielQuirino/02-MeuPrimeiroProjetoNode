@@ -1,0 +1,22 @@
+{
+  "name": "meu_primeiro_projeto",
+  "version": "1.0.0",
+  "description": "this is my first project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BielQuirino/Primeiro_Projeto_Node.git"
+  },
+  "keywords": [
+    "node.js"
+  ],
+  "author": "Gabriel Quirino de Lima",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BielQuirino/Primeiro_Projeto_Node/issues"
+  },
+  "homepage": "https://github.com/BielQuirino/Primeiro_Projeto_Node#readme"
+}
