@@ -1,26 +1,26 @@
 const player1 = {
     NAME:"Goku Base",
-    KI:"4",
-    ULTIMATE:"7",
-    STRENGTH:"4",
+    KI: 4,
+    ULTIMATE: 7,
+    STRENGTH: 4,
 }
 const player2 = {
     NAME:"Goku SSJ",
-    KI:"6",
-    ULTIMATE:"5",
-    STRENGTH:"6",
+    KI: 6,
+    ULTIMATE: 5,
+    STRENGTH: 6,
 }
 const player3 = {
     NAME:"Goku Blue",
-    KI:"10",
-    ULTIMATE:"6",
-    STRENGTH:"10",
+    KI: 10,
+    ULTIMATE: 6,
+    STRENGTH: 10,
 }
 const player4 = {
     NAME:"Goku Black",
-    KI:"7",
-    ULTIMATE:"3",
-    STRENGTH:"8",
+    KI: 7,
+    ULTIMATE: 3,
+    STRENGTH: 8,
 }
 
 async function rollDice(){
@@ -47,7 +47,8 @@ async function getRandomBlock(){
 
 async function logRollResult(characterName, block,diceResult, attribute)
 {
-        console.log(`${characterName} 🎲 rolou um dado de ${block}: ${diceResult}`);
+        console.log(`${characterName} 🎲 rolou um dado de ${block}: ${diceResult} + ${attribute} = ${
+            diceResult + attribute}`);
 }
 
 async function playBattleEngine(character1,character2){
